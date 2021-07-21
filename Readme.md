@@ -2,7 +2,9 @@
 
 Relace `RPI_EFI.fd` official RPi UEFI Firmware v1.28 relase with the recompiled one here.
 
-
+Or you can rebuild `RPI_EFI.fd` yourself by following build instructions below. Make sure to include the following patches:
+- `0001-MdeModulePkg-UefiBootManagerLib-Signal-ReadyToBoot-o.patch` (see reason below)
+- `PXE_patch.patch` (PXE fix adapted from [jlinton fork](https://github.com/jlinton/edk2-platforms/commit/34cc9e2266dcf295ceffe6c82a6aae2a6febc57a) for v1.28 release)
 
 Raspberry Pi 4 UEFI Firmware Images
 ===================================
