@@ -1,6 +1,6 @@
 # PXE fix for v1.28
 
-Relace `RPI_EFI.fd` official RPi UEFI Firmware v1.28 relase with the recompiled one here.
+Replace `RPI_EFI.fd` official RPi UEFI Firmware v1.28 relase with the recompiled one here.
 
 Or you can rebuild `RPI_EFI.fd` yourself by following build instructions below. Make sure to include the following patches:
 - `0001-MdeModulePkg-UefiBootManagerLib-Signal-ReadyToBoot-o.patch` (see reason below)
