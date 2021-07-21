@@ -1,3 +1,9 @@
+# PXE fix for v1.28
+
+Relace `RPI_EFI.fd` official RPi UEFI Firmware v1.28 relase with the recompiled one here.
+
+
+
 Raspberry Pi 4 UEFI Firmware Images
 ===================================
 
